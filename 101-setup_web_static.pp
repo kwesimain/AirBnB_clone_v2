@@ -21,7 +21,7 @@ file { '/data/web_static/current':
 }
 file {'/data/web_static/releases/test/index.html':
   ensure  => present,
-  content => 'Holberton School for the win!',
+  content => 'We  for the win! Eno easy!',
 }
 
 exec { 'chown -R ubuntu:ubuntu /data/':
