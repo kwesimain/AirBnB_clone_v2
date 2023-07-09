@@ -40,7 +40,7 @@ def do_deploy(archive_path):
         sudo('rm /tmp/{}'.format(arc[1]))
         sudo('mv {}/web_static/* {}/'.format(main, main))
         sudo('rm -rf /data/web_static/current')
-        sudo('ln -s {}/ "/data/web_static/current"'.format(main))
+        sudo('ln -s {}/ /data/web_static/current'.format(main))
         return True
     except:
         return False
