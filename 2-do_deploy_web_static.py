@@ -7,7 +7,7 @@ import os
 
 
 # Define the web server IP addresses
-env.hosts = ['<3.84.239.171>', '<52.87.222.81>']
+env.hosts = [3.84.239.171, 52.87.222.81]
 
 
 def do_deploy(archive_path):
